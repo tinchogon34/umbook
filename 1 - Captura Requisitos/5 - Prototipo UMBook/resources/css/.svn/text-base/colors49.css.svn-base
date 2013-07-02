@@ -1,0 +1,188 @@
+/*
+ * Basic Colors
+ 
+ * NOTE: check StencilHelper as well when chaning or adding colors
+ */
+	/* blue */
+	.stroke-blue {
+		stroke: #2D76C2;
+	}
+	.selectedElement .stroke-blue {
+		stroke: #235C96;
+	}
+	.inactiveLayer .stroke-blue {
+		stroke: #c2d1f0;
+	}
+	.fill-blue {
+		fill: #658cd9;
+	}
+/*	.selectedElement .fill-blue {
+		fill: #235C96;
+	}
+*/	.inactiveLayer .fill-blue {
+		fill: #c2d1f0;
+	}
+	
+
+	.fill-commentInactive {
+		fill: #d9d9d9;
+	}
+	.inactiveLayer .fill-commentInactive {
+		fill: #f0f0f0;
+	}
+
+	/* green */
+	.stroke-green {
+		stroke: #758211;
+	}
+	.selectedElement .stroke-green {
+		stroke: #b1c51a;
+	}
+	.inactiveLayer .stroke-green {
+		stroke: #C1CF59;
+	}
+	.fill-green {
+		fill: #b1c51a;
+	}
+/*	.selectedElement .fill-green {
+		fill: #b1c51a;
+	}
+*/	.inactiveLayer .fill-green {
+		fill: #c8d090;
+	}
+
+	/* red */
+	.stroke-red {
+		stroke: #920E05;
+	}
+	.selectedElement .stroke-red {
+		stroke: #A43E36;
+	}
+	.inactiveLayer .stroke-red {
+		stroke: #DE544A;
+	}
+	.fill-red {
+		fill: #d96666;
+	}
+/*	.selectedElement .fill-red {
+		fill: #A43E36;
+	}
+*/	.inactiveLayer .fill-red {
+		fill: #f0c2c2;
+	}
+
+
+	/* orange */
+	.stroke-orange {
+		stroke: #f2a63f;
+	}
+	.selectedElement .stroke-orange {
+		stroke: #ee8800;
+	}
+	.inactiveLayer .stroke-orange {
+		stroke: #fadcb3;
+	}
+	.fill-orange {
+		fill: #f2a63f;
+	}
+	.inactiveLayer .fill-orange{
+		fill: #fadcb3;
+	}
+	
+	/* grey */
+	.fill-grey {
+		fill: #C1C1C1;
+	}
+	.inactiveLayer .fill-grey {
+		fill: #E0E0E0;
+	}
+	
+	/* lightgrey */
+	.fill-lightgrey {
+		fill: #d9d9d9;
+	}
+	.inactiveLayer .fill-lightgrey {
+		fill: #f0f0f0;
+	}
+
+	/* olive */
+	.stroke-olive {
+		stroke: #a7a77c;
+	}
+	.selectedElement .stroke-olive {
+		stroke: #a7a77c;
+	}
+	.inactiveLayer .stroke-olive {
+		stroke: #dcdccb;
+	}
+	.fill-olive {
+		fill: #a7a77c;
+	}
+	.inactiveLayer .fill-olive {
+		fill: #dcdccb;
+	}
+
+	
+	/* yellow */
+	.fill-yellow {
+		fill: #FFFFCC;
+	}
+	.inactiveLayer .fill-yellow {
+		fill: #FFFFEB;
+	}
+	
+	/* black */
+	.stroke-black {
+		stroke: black;
+	}
+	.selectedElement .stroke-black {
+		stroke: #44413f;
+	}
+	.inactiveLayer .stroke-black {
+		stroke: grey;
+	}
+	.fill-black {
+		fill: black;
+	}
+/*	.selectedElement .fill-black {
+		fill: #44413f;
+	}
+	.inactiveLayer .fill-black {
+		fill: grey;
+	}
+*/	
+
+	/* semi transparent grey*/
+	.fill-semitransparent {
+		fill: grey;
+		opacity:0.5;
+	}
+
+
+	/* white */
+	.fill-white {
+		fill: white;
+	}
+/*	.selectedElement .fill-white {
+		fill: white;
+	}
+	.inactiveLayer .fill-white {
+		fill: white;
+	}
+*/	
+	
+	/* none */
+	.stroke-none {
+		stroke: none;
+	}
+	.fill-none {
+		fill: none;
+	}
+/*	.selectedElement .fill-none {
+		fill: none;
+	}
+	.inactiveLayer .fill-none {
+		fill: none;
+	}
+*/	
+	

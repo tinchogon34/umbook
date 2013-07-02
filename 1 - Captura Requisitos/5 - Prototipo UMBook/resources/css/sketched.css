@@ -1,0 +1,205 @@
+html, body {
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	text-align: center;
+	background-color: #eee;
+}
+
+.text_line {line-height:1.2em;}
+
+.svg_unselected_element {
+    stroke-width: 1.5;
+    stroke:black;
+}
+
+.svg_border .svg_unselected_element {
+	stroke-width:0.5
+}
+
+.svg_selected_element {
+    stroke-width: 2.5;
+    fill: white;
+    stroke:#4682B4;
+}
+
+.bigSkechtedTab {
+	display: none;
+}
+
+.selected .bigSkechtedTab {
+	display: block;
+}
+
+.selected .smallSkechtedTab {
+	display: none;
+}
+* {border:0px; border-width:0px; border-style:none; }
+
+body.sketched-none * {font-family: 'Comic Sans MS', sans-serif; font-size:11px;}
+body.sketched-arial * {font-family: arial, sans-serif; font-size:12px;}
+
+* {outline:0px}
+
+* {background: transparent}
+
+#dContainer * {font-family: arial, sans-serif; }
+#dContainer { text-align: left; background-color: white; }
+#dContainer .yui-panel .hd { white-space: nowrap; font-family: arial, sans-serif;}
+#dContainer .yui-panel .bd { overflow: auto; padding: 0px; background-color: white; }
+#dContainer .yui-panel .ft { padding: 0px; background-color: white; font-family: arial, sans-serif;}
+#dContainer .yui-panel .ft textarea { height: 55px; border: 2px inset darkGray; }
+#dContainer .yui-panel .ft button { background: transparent url(../icons/post_button.png);font-family:arial, sans-serif;font-weight:bold;cursor:pointer;border:1px solid gray;-moz-border-radius:3px;margin-left:1px; } 
+#dContainer .yui-panel .ft button:hover{ background: transparent url(../icons/post_button_hover.png);}
+#dContainer .dEntry { padding: 3px; font-family: arial, sans-serif;}
+#dContainer .dEntry.unread { background-color: rgb( 242, 242, 242);}
+#dContainer .dEntryHeader { font-size: 0.9em; margin-top: 5px; font-family: arial, sans-serif; color:#808080; }
+#dContainer .dEntryBody { font-family: arial, sans-serif; font-size: 1.2em;}
+#dContainer .dAuthor { font-weight: bold; font-family: arial, sans-serif;} 
+#dContainer .dEntry.even { background: #fafafa; }
+#dContainer .dEntry.odd { background: #eeeeee; }
+#dContainer .dDateTime {font-family: arial, sans-serif;}
+
+.yui-skin-sam .yui-panel-container.shadow .underlay {
+	right: 0px!important;
+}
+
+
+/*body {background-image: url(K_YELLOW.jpg); background-repeat: repeat;}*/
+
+/*.ClickableSketch {background-image: url(../icons/sketchedButton.png); background-position:0px 0px;}*/
+.ClickableSketchHover {background-image: url(../icons/sketchedButton.png); background-position:-20px 3px;}
+
+.hidden_class {
+	filter:alpha(opacity=0);
+	-moz-opacity:0.0;
+	-khtml-opacity: 0.0;
+	opacity: 0.0;
+}
+
+.transparent_class {
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.visible_class {
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+/* Date Picker */
+.yui-skin-sam .yui-calendar td.calcell a {
+	color: black;
+}
+
+.yui-skin-sam .yui-calendar td.calcell {
+	border: none;
+}
+
+.yui-skin-sam .yui-calendar td.calcell.oom {
+	background-color: white;
+}
+
+.yui-skin-sam .yui-calcontainer {
+	background-color: white;
+	border: none;	
+}
+
+.yui-skin-sam .yui-calendar td.calcell.calcellhover a {
+	background-color: gray;
+}
+
+.tableCells {
+	border:none;
+	padding-left:10px;
+	height:30px;
+}
+
+.tableStyle {
+	table-layout:fixed;
+	border:none;
+	background:transparent;
+}
+
+.show-scrollbars {
+    overflow:visible;
+}
+/* Menu */
+
+.yui-skin-sam .yuimenubar {
+	font-size: 93%;
+	line-height: 2;
+	line-height: 1.9;
+	border: none;
+	background: none;
+}
+.yui-skin-sam .yuimenubaritemlabel {
+	padding: 0 10px;
+	color: #000;
+	text-decoration: none;
+	cursor: default;
+	border-style: none;
+	border-color: #808080;
+	border-width: 1px 0;
+	position: relative;
+	margin: -1px 0;
+}
+.yui-skin-sam > .yuimenu > .bd {
+	border: 0px none;
+}
+
+/*.yui-skin-sam .yuimenubaritemlabel {
+	text-decoration:underline;
+}*/
+.yui-skin-sam .yuimenubaritem-selected {
+	background-image: url(../icons/sketchedButton.png); background-position:-20px 3px;
+}
+.yui-skin-sam .yuimenuitem-selected {
+	background-image: url(../icons/sketchedButton.png); background-position:-20px 3px;
+	background-color: transparent;
+}
+
+.yui-menu-shadow-visible {
+	top: 2px;
+	right: -3px;
+	left: -3px;
+	bottom: -3px;
+	visibility: hidden;
+}
+
+/* Slider */
+.yui-slider-thumb {
+	fill:white;
+}
+
+.tinymce_span{
+	font-size: 1.0em;
+}
+
+/* textlist */
+body.sketched-arial .textlist{line-height : 1.1em}
+
+ul.textlist {
+ 	list-style-type: disc; 
+	padding: 0px 0px 0px 18px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-down: 0px;
+	margin-left: 10px;
+ }
+ol.textlist {
+	padding: 0px 0px 0px 18px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-down: 0px;
+	margin-left: 10px;
+ }
+ 
+/*link*/
+body.sketched-arial div.link a{line-height : 1.3em}

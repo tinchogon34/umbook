@@ -1,0 +1,55 @@
+10
+
+dir
+146
+https://um2011grupo1mendoza.googlecode.com/svn/trunk/Dise%C3%B1o/Diagrama%20de%20secuencia
+https://um2011grupo1mendoza.googlecode.com/svn
+
+
+
+2011-07-07T17:02:15.096281Z
+145
+julesnikolai@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5b455c79-f7af-246e-ddca-be1406204926
+
+CU001_Registrar_Usuario
+dir
+
+CU008_-_Gestionar Cumpleaños
+dir
+
+CU011_-_Gestionar album de fotos
+dir
+
+CU012_-_Actualizar perfil
+dir
+
+CU0006_-_Enviar invitación
+dir
+
+CU0005_-_Manejar comentarios
+dir
+
+CU007_-_Gestionar solicitudes pendientes
+dir
+
+CU002_Loguear_Usuario
+dir
+
+CU009_-_Manejar permisos muro
+dir
+
